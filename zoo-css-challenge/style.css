@@ -1,5 +1,6 @@
 * {
   font-family: sans-serif;
+  line-height: 45px;
 }
 
 header {
@@ -29,9 +30,7 @@ section {
   background-color: #f8f0fb;
 }
 
-img {
-  border: 5px solid #8075ff;
-}
+img {}
 
 h1,
 h2,
@@ -45,7 +44,9 @@ h5 {
 
 h1 {
   font-size: 250%;
+
 }
+
 
 h2 {
   font-size: 175%;
@@ -53,6 +54,7 @@ h2 {
 
 h3 {
   font-size: 150%;
+  color: #F4743B;
 }
 
 button {
@@ -76,6 +78,7 @@ footer {
 }
 
 .introduction {
+  background-color: rgb(252, 250, 250);
 }
 
 #badge {
@@ -87,6 +90,7 @@ footer {
   position: fixed;
   bottom: 20px;
   right: 20px;
+
 
   display: flex;
   justify-content: center;
@@ -105,25 +109,54 @@ footer {
 
 .image-container img {
   vertical-align: top;
-  border: 5px solid #747c92;
+  border: 5px solid;
+  width: 200px;
+  height: 300px;
+  margin: 10px;
 }
 
 .image-container img:first-of-type {
-  vertical-align: bottom;
+
+  border: 5px solid #56e39f;
+
+}
+
+.image-container img:nth-of-type(2) {
+  border: 5px solid #032379;
+
+
+}
+
+.image-container img:nth-of-type(3) {
+  border: 5px solid #f0e100;
+
 }
 
 .tigers {
-  background-color: #0b3c49;
-  color: #f0e100;
+  background-color: #CDFEFD;
+  color: #0f0f0b;
 }
 
 .giraffe {
-  background-color: #465775;
-  color: #56e39f;
+  background-color: #483C46;
+  color: #BEEE62;
+
+}
+
+.girafa .p1 {
+  font-size: 50px;
 }
 
 .giraffe h2 {
   color: #ef6f6c;
+}
+
+.giraffe .h3 {
+  color: #F4743B;
+}
+
+.news>h2 {
+  text-align: center;
 }
 
 .card {
