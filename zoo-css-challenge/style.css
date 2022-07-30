@@ -165,6 +165,11 @@ footer {
   color: #F4743B;
 }
 
+.perro {
+  background-color: #483C46;
+  color: rgb(130, 211, 243);
+}
+
 .news>h2 {
   text-align: center;
 }
