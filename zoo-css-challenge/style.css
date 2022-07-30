@@ -95,10 +95,13 @@ footer {
   border-radius: 50%;
   display: inline-block;
   position: fixed;
-  bottom: 20px;
+  top: 15px;
   right: 20px;
-
-
+  transition: all 2s ease;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -169,11 +172,12 @@ footer {
 .card {
   display: inline-block;
   background-color: white;
-  padding: 20px;
+  padding: 10px;
   margin: 10px;
   width: 30%;
   border: 1px solid black;
   border-radius: 10px;
+  flex-direction: row;
 }
 
 .card h4 {
@@ -219,6 +223,10 @@ footer {
 .membership {
   text-align: center;
   background-color: #fffffc;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .membership h2 {
@@ -232,5 +240,11 @@ footer {
 /*Programs*/
 
 .programs .card {
-  display: block;
+  display: inline-block;
+  vertical-align: auto;
+  padding: auto;
+  margin: auto;
+  height: auto;
+
+
 }
